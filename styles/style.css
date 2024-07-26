@@ -1,0 +1,254 @@
+
+/*! shared styles */
+.display-flex{
+    display: flex;
+}
+
+.text-primary{
+    color:#FFFFFF;
+}
+
+
+
+.bg-light{
+    background-color: rgba(17, 16, 16, 0.925);
+}
+
+.btn-primary-red{
+    background-color:#E6533C;
+    color: white;
+    padding: 15px 35px;
+    font-size: 1.125rem;
+    font-weight: 600;
+    border-radius: 30px;
+    /* border: none; */
+    border-color: black;
+    
+}
+
+.btn-primary-white{
+    background-color:transparent;
+    color: white;
+    padding: 15px 35px;
+    font-size: 1.125rem;
+    font-weight: 600;
+    border-radius: 30px;
+    /* border: none; */
+    border-color: white;
+}
+
+
+/*! shared styles */
+
+.banner-btn-primary{
+    padding: 45px 42px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    height: 50px;
+    width: 50px;
+
+}
+/* main{
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: black;
+} */
+
+.main-all{
+    background-color: black;
+    color: #FFFFFF;
+}
+
+/* main > section{
+    margin-top: 130px;
+} */
+
+.section-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+
+.fitness{
+    font-weight: bolder;
+    font-size: 2.25rem ;
+    color: #E6533C;
+
+}
+
+/** header styles */
+
+/** navbar related styles */
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* .brand{
+    font-weight: 700;
+    font-size: 3rem;
+} */
+
+.nav-item{
+    list-style: none;
+    margin-right: 30px;
+}
+
+.nav-link{
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.navbar, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* banner related styles */
+
+.banner-content{
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.banner-title{
+    font-weight: 700;
+    font-size: 4rem;
+    color: #ffffff;
+
+}
+
+.banner-paragraph{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #ffffff;
+    opacity: 50%;
+    padding-bottom: 10px;
+}
+
+.banner-image{
+    width: 100%;
+}
+
+
+#banner-btn-1{
+    margin-bottom: -100px;
+
+}
+
+#banner-btn-{
+    margin-top: -500px;
+
+
+}
+    
+
+
+.img-container{
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    
+}
+
+.habits >  image{
+    border-radius: 150px
+}
+
+img{
+    width: 100%;
+}
+.img1{
+    border-radius: 150px;
+}
+.img2{
+    border-radius: 150px;
+}
+.img3{
+    border-radius: 150px;
+}
+.img4{
+    border-radius: 150px;
+}
+
+.habits{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.habits-description{
+    color: white;
+    opacity: 50%;
+}
+
+.habit-subimage-title{
+    color: white;
+    font-weight: 700;
+}
+
+
+.header-banner{
+    background-color: black;
+
+}
+
+.run{
+    width: 100%;
+    border-radius: 100px;
+    height: 300px;
+    width: 540px;
+
+}
+.running-image{
+    border-radius:150px ;
+}
+
+.text-part{
+    align-items: center;
+    
+}
+
+.run-an-extra-mile{
+    justify-content: center;
+    margin-top: 100px;
+    
+}
+.full{
+    justify-content: center;
+
+    background-color: rgb(48, 46, 45);
+    border-radius: 100px;
+    padding-left:100px ;
+    margin-bottom: 100px;
+}
+
+
+.running-btn{
+    margin-top: 10px ;
+} 
+
+.teams{
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    
+}
+.team-img-container{
+   
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    justify-self: center;
+}
+
+
+footer{
+    text-align: center;
+    
+    border-color: #FFFFFF;
+    background-color: #E6533C;
+}
