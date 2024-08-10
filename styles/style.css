@@ -1,5 +1,39 @@
 
+@import url('https://fonts.cdnfonts.com/css/miama');
+
+.new-font{
+    font-family: 'Miama', sans-serif;
+    font-size: larger;
+    font-weight: 400;
+}                
+
+.inter-font{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+  }
+
+ 
+
 /*! shared styles */
+
+
+.experience-year{
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+
+.btn-subtext{
+    opacity: 0.5;
+    font-size: 0.8125rem;
+    font-weight: 600;
+}
+
 .display-flex{
     display: flex;
 }
@@ -28,13 +62,13 @@
 
 .btn-primary-white{
     background-color:transparent;
-    color: white;
+    color: rgb(255, 255, 255);
     padding: 15px 35px;
     font-size: 1.125rem;
     font-weight: 600;
     border-radius: 30px;
     /* border: none; */
-    border-color: white;
+    border-color: rgb(255, 255, 255);
 }
 
 
@@ -72,7 +106,8 @@
 .fitness{
     font-weight: bolder;
     font-size: 2.25rem ;
-    color: #E6533C;
+    color: #e62c0f;
+    font: italic;
 
 }
 
@@ -130,11 +165,18 @@
 
 .banner-image{
     width: 100%;
+    /* max-width: 500px; */
 }
 
 
 #banner-btn-1{
     margin-bottom: -100px;
+    margin-left: -500;
+    position: absolute;
+
+}
+#banner-btn-2{
+    position: absolute;
 
 }
 
@@ -144,8 +186,10 @@
 
 }
     
-
-
+.banner-image-container{
+    position: relative;
+}
+/* ************************Change Habits  PART************************ */
 .img-container{
     align-items: center;
     justify-content: center;
@@ -195,15 +239,22 @@ img{
 
 }
 
+/* ************************Change Habits  PART************************ */
+
+
+
+/* ************************RUN an  extra MILE PART************************ */
 .run{
     width: 100%;
+    height: 70%;
     border-radius: 100px;
-    height: 300px;
-    width: 540px;
+
+    
 
 }
 .running-image{
     border-radius:150px ;
+    
 }
 
 .text-part{
@@ -214,6 +265,8 @@ img{
 .run-an-extra-mile{
     justify-content: center;
     margin-top: 100px;
+    display: flex;
+    
     
 }
 .full{
@@ -230,25 +283,129 @@ img{
     margin-top: 10px ;
 } 
 
-.teams{
-    align-items: center;
-    justify-content: center;
-    align-content: center;
+/* ************************RUN an  extra MILE PART************************ */
+
+
+
+
+/* ************************TEAM PART************************ */
+
+
+.teams {
+    width: 70%; 
+    margin: 0 auto;
     text-align: center;
-    
 }
-.team-img-container{
-   
+
+.team-img-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 24px;
-    justify-self: center;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 1px;
+    row-gap: 40px;
+    justify-items: center;
+    align-items: center;
+    background-color: #1b1a1a;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 50px;
 }
 
+.team-img-container div {
+    position: relative; 
+    width: 90%; 
+    height: 100%; 
+}
 
-footer{
-    text-align: center;
+.team-img-container img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+    border-radius: 15px; 
+}
+
+.team-img-container h4 {
+    position: absolute;
+    left: 10px; 
+    color: white;
+    text-align: left;
+    font-size: 1rem;
+    margin: 0;
+    bottom: 35px; 
+}
+
+.team-img-container p {
+    position: absolute;
+    bottom: 15px;
+    left: 10px; 
+    color: rgba(255, 255, 255, 0.8); 
+    text-align: left;
+    font-size: 0.8rem;
+    opacity: 0.9;
+    margin: 0; 
     
-    border-color: #FFFFFF;
-    background-color: #E6533C;
 }
+
+/* ************************TEAM PART************************ */
+
+
+
+/* ************************BMI PART************************ */
+
+
+/* ************************BMI PART************************ */
+
+
+
+
+/* ************************FOOTER PART************************ */
+
+footer {
+    background-color: #1b1a1a; 
+    color: #FFFFFF; 
+    padding: 20px 0; 
+    border-top: 1px solid #e62c0f; 
+}
+
+.footer-three-in-one {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: flex-start;
+    flex-wrap: wrap; 
+    padding: 0 20px; 
+}
+
+.footer-three-in-one > div {
+    flex: 1; 
+    margin: 0 10px; 
+    text-align: center; 
+}
+
+.footer-fitness {
+    text-align: left; 
+    margin-right: auto; 
+}
+
+.footer-fitness h1 {
+    margin: 0; 
+    font-style: italic; 
+}
+
+.footer-fitness p {
+    margin-top: 10px; 
+    line-height: 1.5;
+}
+
+.get-started-1, .get-started-2 {
+    text-align: center; 
+}
+
+.footer-last-part {
+    width: 70%; 
+    margin: 20px auto 0; 
+    text-align: center; 
+    border-top: 1px solid #e62c0f; 
+    padding-top: 10px; 
+}
+
+
+/* ************************FOOTER PART************************ */
