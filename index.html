@@ -178,11 +178,101 @@
 
 
 <!-- BMI  -->
- 
+
+
+<section class="BMI">
+    <h1>BMI Calculator</h1>
+    <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+
+    <div class="bmi-section">
+        <div class="bmi-table-container">
+            <h2>BMI Calculator Chart</h2>
+            <table class="bmi-table">
+                <thead>
+                    <tr>
+                        <th>BMI</th>
+                        <th>Weight Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Below 18.5</td>
+                        <td>Underweight</td>
+                    </tr>
+                    <tr>
+                        <td>18.5 - 24.9</td>
+                        <td>Healthy</td>
+                    </tr>
+                    <tr>
+                        <td>25.0 - 29.9</td>
+                        <td>Overweight</td>
+                    </tr>
+                    <tr>
+                        <td>30.0 and above</td>
+                        <td>Obese</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+
+
+<!-- Form part Start -->
+        <div class="bmi-form-container">
+            <h2>Calculate Your BMI</h2>
+            <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. </p>
+            <form class="bmi-form">
+                <div class="form-group">
+                    <div class="inline-form-group">
+                        <label for="height"></label>
+                        <input type="number" id="height" name="height" placeholder="Height/cm">
+                    </div>
+                    <div class="inline-form-group">
+                        <label for="weight"></label>
+                        <input type="number" id="weight" name="weight" placeholder="weight/kg">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="inline-form-group">
+                        <label for="age"></label>
+                        <input type="number" id="age" name="age" placeholder="Age">
+                    </div>
+                    <div class="sex-part">
+                        <label for="sex"></label>
+                        <select id="sex" name="sex">
+                            <option value="" disabled selected hidden>Sex</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="activity-form">
+                        <select id="activity" name="activity">
+                            <option value="" disabled selected hidden>Activity Factor</option>
+                            <option value="sedentary">No Activity</option>
+                            <option value="light">Light Activity</option>
+                            <option value="moderate">Moderate Activity</option>
+                            <option value="active">Active</option>
+                            <option value="very-active">Very Active</option>
+                        </select>
+                    </div>
+                </div>
+                <button type="button" class="calculate-btn">Calculate</button>
+            </form>
+        </div>
+        
+    </div>
+</section>
+
+<!-- Form part end -->
+
+
     <!-- BMI  -->
 
 
 <!-- MY PART -->
+ 
 <section class="video-section">
     <div class="video-overlay">
         <video autoplay muted loop class="full-width-video">
@@ -191,6 +281,7 @@
         </video>
         <div class="overlay-text">BE THE BEST VERSION OF YOURSELF</div>
     </div>
+    
 </section>
 
 <!-- MY PART -->
@@ -199,7 +290,7 @@
     <footer>
         <div class="display-flex footer-three-in-one">
             <div class="footer-fitness">
-                <h1 class="fitness"><i>Fitness</i></h1>
+                <h1 class="fitness-footer"><i>Fitness</i></h1>
                 <p>We believe fitness should be accessible to everyone,<br> everywhere, regardless of income or access to a gym. With<br> hundreds of professional workouts.</p>
             </div>
     
