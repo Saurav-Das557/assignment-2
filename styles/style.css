@@ -21,18 +21,47 @@
 /*! shared styles */
 
 
-.experience-year{
+.experience-year-1 {
+    position: absolute;
     color: white;
     font-size: 2.5rem;
     font-weight: bolder;
-}
+    margin-left: -5rem;
+    margin-top: -2.6rem;
+
+  }
 
 
-.btn-subtext{
+  .experience-year-2 {
+    position: absolute;
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    margin-left: -3.125rem;
+    margin-top: -2.5rem;
+    font-size: 200%;
+  }
+
+
+  .btn-subtext-1{
+    position: absolute;
     opacity: 0.5;
-    font-size: 0.8125rem;
+    font-size: 1rem;
     font-weight: 600;
-}
+    margin-top: -0.5rem;
+    margin-left: -2.7rem;
+    
+  }
+
+  .btn-subtext-2{
+    position: absolute;
+    opacity: 0.5;
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-top: 0rem;
+    margin-left: -3.125rem;
+    
+  }
 
 .display-flex{
     display: flex;
@@ -75,13 +104,13 @@
 /*! shared styles */
 
 .banner-btn-primary{
-    padding: 45px 42px;
+    padding: 2.8125rem 5.625rem;
     font-size: 1.5rem;
     font-weight: 500;
-    height: 50px;
-    width: 50px;
-
+    height: 3.125rem;
 }
+
+
 /* main{
     max-width: 1440px;
     margin: 0 auto;
@@ -106,7 +135,7 @@
 .fitness{
     font-weight: bolder;
     font-size: 2.25rem ;
-    color: #e62c0f;
+    color: #e62c0f;url(http://127.0.0.1:5500/index.html)
     font: italic;
 
 }
@@ -115,6 +144,16 @@
 
 
 /** header styles */
+.header-banner{
+    background-color: black;
+    
+    
+
+    
+
+}
+
+
 
 /** navbar related styles */
 .navbar{
@@ -144,6 +183,10 @@
 
 /* banner related styles */
 
+.banner{
+    margin-left: -10rem;
+}
+
 .banner-content{
     max-width: 850px;
     margin: 0 auto;
@@ -163,7 +206,7 @@
     font-weight: 500;
     color: #ffffff;
     opacity: 50%;
-    padding-bottom: 10px;
+    padding-bottom: 0.6rem;
 }
 
 .banner-image{
@@ -172,21 +215,36 @@
 }
 
 
-#banner-btn-1{
-    margin-bottom: -100px;
-    margin-left: -500;
+#banner-btn-1 {
+    margin-bottom: -6.25rem;
+    margin-left: -28.125rem;
+    margin-top: 25rem;
     position: absolute;
+    background-color: #5a54548c;
+    /* background: transparent;  */
+    color: white;
+    border: 0rem;
+    width: 9.375rem;
+    border-radius: 0.625rem;
+    filter: opacity(1px);
+    /* z-index: 9999; */
+  }
 
-}
-#banner-btn-2{
-    position: absolute;
 
-}
+#banner-btn-2 {
+  position: absolute;
+  margin-left: -10.25rem;
+  margin-top: 7rem;
+  background: transparent; 
+  color: white;
+  border: 0rem;
+  width: 9.375rem;
+  border-radius: 0.625rem;
+  background-color: rgba(41, 37, 37, 0.925);
+  filter: blur(0.01rem);
+  /* padding-right: 2rem; */
 
-#banner-btn-{
-    margin-top: -500px;
-
-
+  
 }
     
 .banner-image-container{
@@ -237,10 +295,6 @@ img{
 }
 
 
-.header-banner{
-    background-color: black;
-
-}
 
 /* ************************Change Habits  PART END************************ */
 
@@ -463,6 +517,21 @@ img{
     width: 100%;
 }
 
+.bmi-form-container p {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    padding-left: 1.7rem;
+}
+
+.BMI-calculator-heading{
+    display: flex;
+    padding-left: 1.7rem;
+    justify-content: start;
+}
+
+
+
 .bmi-form {
     padding: 1.2rem;
     border-radius: 10px;
@@ -502,6 +571,7 @@ img{
 }
 
 .calculate-btn {
+
     width: 10%;
     padding: 1rem;
     background-color: #E6533C;
@@ -509,6 +579,11 @@ img{
     border: none;
     border-radius: 1.5rem;
     font-weight: bolder;
+    justify-content: start;
+    position: absolute;
+    margin-left: -33rem;
+    margin-top: 1rem;
+    
 }
 
 
