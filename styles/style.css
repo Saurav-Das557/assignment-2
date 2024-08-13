@@ -903,9 +903,9 @@ footer {
     }
 
     .calculate-btn {
-        position: relative; /* change from absolute to relative */
-        margin-top: 20px; /* add some margin to move the button down */
-        width: 50%; /* make the button full-width */
+        position: relative; 
+        margin-top: 20px; 
+        width: 50%; 
         margin-right: -31rem;
       }
   
