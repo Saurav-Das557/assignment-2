@@ -149,7 +149,7 @@
 .fitness{
     font-weight: bolder;
     font-size: 2.25rem ;
-    color: #e62c0f;url(http://127.0.0.1:5500/index.html)
+    color: #e62c0f;
     font: italic;
 
 }
@@ -732,8 +732,7 @@ footer {
 /* PX info gathered from this website https://yesviz.com/devices/iphone-14-pro/ */
 
 
-
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 400px) {
     .navbar {
         flex-direction: column;
         align-items: flex-start;
@@ -755,8 +754,8 @@ footer {
         display: block;
         margin-top: 1rem;
         color: white;
-        margin-left: 22rem;
-        margin-top:2.5rem ;
+        margin-left: 20rem;
+        margin-top: 2.5rem;
     }
 
     /** Banner adjustments */
@@ -794,132 +793,126 @@ footer {
         margin-top: 25rem;
         position: absolute;
         background-color: #5a54548c;
-        /* background: transparent;  */
         color: white;
         border: 0rem;
         width: 9.375rem;
         border-radius: 0.625rem;
-        filter: opacity(1px);
-        /* z-index: 9999; */
-      }
-    
+    }
     
     #banner-btn-2 {
-      position: absolute;
-      margin-left: -11.25rem;
-      margin-top: 7rem;
-      background: transparent; 
-      color: white;
-      border: 0rem;
-      width: 9.375rem;
-      border-radius: 0.625rem;
-      background-color: rgba(41, 37, 37, 0.925);
-      filter: blur(0.01rem);
-      /* padding-right: 2rem; */
-    
-      
+        position: absolute;
+        margin-left: -11.25rem;
+        margin-top: 7rem;
+        background: transparent;
+        color: white;
+        border: 0rem;
+        width: 9.375rem;
+        border-radius: 0.625rem;
+        background-color: rgba(41, 37, 37, 0.925);
     }
 
-    .btn-subtext-1{
+    .btn-subtext-1 {
         position: absolute;
         opacity: 0.5;
         font-size: 1rem;
         font-weight: 600;
         margin-top: -0.5rem;
         margin-left: -2.7rem;
-        
-      }
+    }
     
-      .btn-subtext-2{
+    .btn-subtext-2 {
         position: absolute;
         opacity: 0.5;
         font-size: 0.8rem;
         font-weight: 600;
         margin-top: 0rem;
         margin-left: -3.125rem;
-        
-      }
+    }
 
-      .btn-primary-white{
+    .btn-primary-white {
         font-size: small;
         font-weight: 200;
-      }
+    }
 
-      .btn-primary-red-1{
+    .btn-primary-red-1 {
         font-size: small;
         font-weight: 200;
-        
     }
   
     /** Habits section styles */
     .habits {
-      flex-direction: column;
-      align-items: center;
+        flex-direction: column;
+        align-items: center;
     }
     .img-container {
-      flex-direction: column;
+        flex-direction: column;
     }
     .img1, .img2, .img3, .img4 {
-      width: 100%;
-      height: 200px;
-      object-fit: cover;
-      margin-bottom: 20px;
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        margin-bottom: 20px;
     }
   
     /** Run an extra mile section styles */
     .run-an-extra-mile {
-      flex-direction: column;
-      align-items: center;
+        flex-direction: column;
+        align-items: center;
     }
     .full {
-      flex-direction: column;
-      padding: 3rem;
+        flex-direction: column;
+        padding: 3rem;
     }
     .text-part {
-      width: 100%;
+        width: 100%;
     }
     .running-image {
         margin-top: 2rem;
-      width: 100%;
-      height: 50%;
-      
+        width: 100%;
+        height: 50%;
     }
   
-    /** Team section styles */
+    * Team section styles
     .team-img-container {
-        grid-template-columns: 1fr; 
-      }
-      .team-img-container div {
-        margin-bottom: 20px; 
-      }
+        grid-template-columns: 1fr;
     }
-    /** BMI section styles */
+    .team-img-container div {
+        margin-bottom: 20px;
+    }
+
+    * BMI section styles
     .BMI {
-      flex-direction: column;
-      align-items: center;
+        flex-direction: column;
+        align-items: center;
     }
     .bmi-section {
-      flex-direction: column;
-      background-color: #1b1a1a;
-      
+        flex-direction: column;
+        background-color: #1b1a1a;
     }
     .bmi-table-container {
-      width: 100%;
+        width: 100%;
     }
     .bmi-form-container {
-      width: 100%;
+        width: 100%;
+        position: relative;
+        
     }
     .bmi-form {
-      width: 100%;
+        width: 100%;
+        
     }
+
+    .calculate-btn {
+        position: relative; /* change from absolute to relative */
+        margin-top: 20px; /* add some margin to move the button down */
+        width: 50%; /* make the button full-width */
+        margin-right: -31rem;
+      }
   
     /** Video section styles */
     .video-section {
         width: 100%;
         height: 100%;
-        
-        
-       
     }
 
     .video-overlay {
@@ -936,35 +929,43 @@ footer {
         font-size: 1.5rem;
     }
 
-    
-  
     /** Footer styles **/
     footer {
-      padding: 20px;
-      margin-top: 3rem;
+        padding: 20px;
+        margin-top: 3rem;
     }
     .footer-three-in-one {
-      flex-direction: column;
+        flex-direction: column;
+        align-items: flex-start;
     }
     .footer-fitness, .get-started-1, .get-started-2 {
-      width: 100%;
-      margin-bottom: 20px;
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: left; 
     }
 
-    .footer-last-part{
+    .footer-last-part {
         width: 100%;
     }
 
+    
+}
 
-  
-  
-  
-  
-  
+
+
+@media screen and (min-width: 401px) and (max-width: 768px) {}
+
+
+
 
     
-    
 
 
 
+
+  
+  
+  
+  
+  
 
