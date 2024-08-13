@@ -20,7 +20,9 @@
 
 /*! shared styles */
 
-
+.nav-phone{
+    display: none;
+}
 .experience-year-1 {
     position: absolute;
     color: white;
@@ -78,6 +80,18 @@
 }
 
 .btn-primary-red{
+    background-color:#E6533C;
+    color: white;
+    padding: 15px 35px;
+    font-size: 1.125rem;
+    font-weight: 600;
+    border-radius: 30px;
+    /* border: none; */
+    border-color: black;
+    
+}
+
+.btn-primary-red-1{
     background-color:#E6533C;
     color: white;
     padding: 15px 35px;
@@ -168,7 +182,7 @@
 
 .nav-item{
     list-style: none;
-    margin-right: 30px;
+    margin-right: 1.875rem;
 }
 
 .nav-link{
@@ -177,7 +191,7 @@
 }
 
 .navbar, .banner{
-    max-width: 1440px;
+    max-width: 90rem;
     margin: 0 auto;
 }
 
@@ -188,10 +202,10 @@
 }
 
 .banner-content{
-    max-width: 850px;
+    max-width: 53.125rem;
     margin: 0 auto;
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 3.125;
 }
 
 .banner-title{
@@ -334,7 +348,7 @@ img{
 .run {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    
 }
 
 .running-btn {
@@ -581,8 +595,9 @@ img{
     font-weight: bolder;
     justify-content: start;
     position: absolute;
-    margin-left: -33rem;
+    margin-left: -42rem;
     margin-top: 1rem;
+    
     
 }
 
@@ -606,6 +621,7 @@ img{
     width: 100%;
     height: auto; 
     overflow: hidden; 
+    margin-top: 4rem;
 }
 
 .full-width-video {
@@ -703,3 +719,252 @@ footer {
 
 
 /* ************************FOOTER PART END************************ */
+
+
+
+
+
+/******************************** MEDIA QUERY ***************************************/
+
+
+/* For I phone 14 pro  */
+
+/* PX info gathered from this website https://yesviz.com/devices/iphone-14-pro/ */
+
+
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .nav-links {
+        flex-direction: column;
+        width: 100%;
+        display: none;
+    }
+
+    .nav-item {
+        margin-right: 0;
+        margin-bottom: 0.5rem;
+    }
+    
+    .nav-phone {
+        position: absolute;
+        display: block;
+        margin-top: 1rem;
+        color: white;
+        margin-left: 22rem;
+        margin-top:2.5rem ;
+    }
+
+    /** Banner adjustments */
+    .banner {
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    .banner-content {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .banner-title {
+        font-size: 2.5rem;
+    }
+
+    .banner-paragraph {
+        font-size: 0.9rem;
+    }
+
+    .banner-image-container {
+        position: static;
+        margin: 0;
+    }
+
+    .banner-image {
+        width: 100%;
+        height: auto;
+    }
+
+    #banner-btn-1 {
+        margin-bottom: -6.25rem;
+        margin-left: -24.125rem;
+        margin-top: 25rem;
+        position: absolute;
+        background-color: #5a54548c;
+        /* background: transparent;  */
+        color: white;
+        border: 0rem;
+        width: 9.375rem;
+        border-radius: 0.625rem;
+        filter: opacity(1px);
+        /* z-index: 9999; */
+      }
+    
+    
+    #banner-btn-2 {
+      position: absolute;
+      margin-left: -11.25rem;
+      margin-top: 7rem;
+      background: transparent; 
+      color: white;
+      border: 0rem;
+      width: 9.375rem;
+      border-radius: 0.625rem;
+      background-color: rgba(41, 37, 37, 0.925);
+      filter: blur(0.01rem);
+      /* padding-right: 2rem; */
+    
+      
+    }
+
+    .btn-subtext-1{
+        position: absolute;
+        opacity: 0.5;
+        font-size: 1rem;
+        font-weight: 600;
+        margin-top: -0.5rem;
+        margin-left: -2.7rem;
+        
+      }
+    
+      .btn-subtext-2{
+        position: absolute;
+        opacity: 0.5;
+        font-size: 0.8rem;
+        font-weight: 600;
+        margin-top: 0rem;
+        margin-left: -3.125rem;
+        
+      }
+
+      .btn-primary-white{
+        font-size: small;
+        font-weight: 200;
+      }
+
+      .btn-primary-red-1{
+        font-size: small;
+        font-weight: 200;
+        
+    }
+  
+    /** Habits section styles */
+    .habits {
+      flex-direction: column;
+      align-items: center;
+    }
+    .img-container {
+      flex-direction: column;
+    }
+    .img1, .img2, .img3, .img4 {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      margin-bottom: 20px;
+    }
+  
+    /** Run an extra mile section styles */
+    .run-an-extra-mile {
+      flex-direction: column;
+      align-items: center;
+    }
+    .full {
+      flex-direction: column;
+      padding: 3rem;
+    }
+    .text-part {
+      width: 100%;
+    }
+    .running-image {
+        margin-top: 2rem;
+      width: 100%;
+      height: 50%;
+      
+    }
+  
+    /** Team section styles */
+    .team-img-container {
+        grid-template-columns: 1fr; 
+      }
+      .team-img-container div {
+        margin-bottom: 20px; 
+      }
+    }
+    /** BMI section styles */
+    .BMI {
+      flex-direction: column;
+      align-items: center;
+    }
+    .bmi-section {
+      flex-direction: column;
+      background-color: #1b1a1a;
+      
+    }
+    .bmi-table-container {
+      width: 100%;
+    }
+    .bmi-form-container {
+      width: 100%;
+    }
+    .bmi-form {
+      width: 100%;
+    }
+  
+    /** Video section styles */
+    .video-section {
+        width: 100%;
+        height: 100%;
+        
+        
+       
+    }
+
+    .video-overlay {
+        width: 100%;
+        position: relative;
+    } 
+
+    .full-width-video {
+        width: 100%;
+        height: auto;
+    }
+
+    .overlay-text {
+        font-size: 1.5rem;
+    }
+
+    
+  
+    /** Footer styles **/
+    footer {
+      padding: 20px;
+      margin-top: 3rem;
+    }
+    .footer-three-in-one {
+      flex-direction: column;
+    }
+    .footer-fitness, .get-started-1, .get-started-2 {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+
+    .footer-last-part{
+        width: 100%;
+    }
+
+
+  
+  
+  
+  
+  
+
+    
+    
+
+
+
+
