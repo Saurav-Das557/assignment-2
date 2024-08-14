@@ -731,8 +731,11 @@ footer {
 
 
 
+/**IPHONE 14 pro  */
 
-@media screen and (max-width: 400px) {
+
+
+@media screen and (max-width: 576px) {
     .navbar {
         flex-direction: column;
         align-items: flex-start;
@@ -953,9 +956,10 @@ footer {
 }
 /* ******************************* IPAD MINI SECTION        *********************************************** */
 
-@media screen and (min-width: 401px) and (max-width: 768px) {
+@media screen and (min-width: 577px) and (max-width: 992px) {
     .banner{
         flex-direction: column;
+        
     }
     #banner-btn-1 {
         margin-bottom: -6.25rem;
@@ -1017,11 +1021,7 @@ footer {
 
 
 /** BMI section styles */
-.BMI {
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
-}
+
 
 .bmi-section {
     display: flex;
@@ -1035,16 +1035,8 @@ footer {
     margin-bottom: 20px; 
 }
 
-.bmi-form-container {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 
-.bmi-form {
-    width: 100%;
-}
+
 
 .calculate-btn {
     position: relative; 
