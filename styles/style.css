@@ -729,7 +729,7 @@ footer {
 
 /* For I phone 14 pro  */
 
-/* PX info gathered from this website https://yesviz.com/devices/iphone-14-pro/ */
+
 
 
 @media screen and (max-width: 400px) {
@@ -871,8 +871,9 @@ footer {
         width: 100%;
         height: 50%;
     }
+
   
-    * Team section styles
+    /* Team section styles */
     .team-img-container {
         grid-template-columns: 1fr;
     }
@@ -880,7 +881,7 @@ footer {
         margin-bottom: 20px;
     }
 
-    * BMI section styles
+    /* * BMI section styles */
     .BMI {
         flex-direction: column;
         align-items: center;
@@ -950,22 +951,187 @@ footer {
 
     
 }
+/* ******************************* IPAD MINI SECTION        *********************************************** */
 
+@media screen and (min-width: 401px) and (max-width: 768px) {
+    .banner{
+        flex-direction: column;
+    }
+    #banner-btn-1 {
+        margin-bottom: -6.25rem;
+        margin-left: -50.125rem;
+        margin-top: 87rem;
+        position: absolute;
+        background-color: #5a54548c;
+        color: white;
+        border: 0rem;
+        width: 9.375rem;
+        border-radius: 0.625rem;
+    }
+    
+    #banner-btn-2 {
+        position: absolute;
+        margin-top: 20rem;
+        margin-left: -15.125rem;
+        background: transparent;
+        color: white;
+        border: 0rem;
+        width: 13.375rem;
+        height: 8rem;
+        border-radius: 0.625rem;
+        background-color: rgba(41, 37, 37, 0.925);
+    }
 
-
-@media screen and (min-width: 401px) and (max-width: 768px) {}
-
-
-
-
+    
     
 
 
 
+/* Habits section  */
+.img-container {
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 3rem; 
+    
+}
+.img-container img {
+    width: 80%; 
+    height: auto; 
+    border-radius: 50%; 
+}
 
-  
-  
-  
-  
-  
 
+/** RUN AN EXTRA MILE  */
+
+
+
+.full {
+    width: 80%;
+}
+.running-image {
+    background-position: center; 
+}
+
+
+
+
+
+/** BMI section styles */
+.BMI {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.bmi-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #1b1a1a;
+}
+
+.bmi-table-container {
+    width: 100%;
+    margin-bottom: 20px; 
+}
+
+.bmi-form-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bmi-form {
+    width: 100%;
+}
+
+.calculate-btn {
+    position: relative; 
+    margin-top: 20px; 
+    width: 20%; 
+    margin-right: -5rem;
+  }
+
+/** VIDEO SECTION */
+    .full-width-video {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .video-overlay {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: auto; 
+        top: 0;
+        left: 0;
+        padding: 10px; 
+        box-sizing: border-box;
+    }
+
+    .overlay-text {
+        position: absolute;
+        color: white;
+        font-size: 3rem; 
+        text-align: center;
+        z-index: 1;
+        width: 100%;
+        max-width: 100%;
+        padding: 20px;
+        padding-top: 50px; 
+        box-sizing: border-box;
+        font-weight: bolder;
+    }
+
+/** VIDEO SECTION END */
+
+
+/** footer section */
+
+footer {
+    padding: 20px;
+    margin-top: 3rem;
+    width: 100%;
+}
+
+.footer-three-in-one {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 20px; 
+    width: 100%;
+    align-items: start;
+}
+
+.footer-fitness {
+    grid-column: span 2;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.get-started-1, .get-started-2 {
+    text-align: left;
+    width: 100%;
+}
+
+.footer-last-part {
+    grid-column: span 2; 
+    text-align: left;
+    margin-top: 20px;
+}
+
+/** Footer Section END */
+}
+
+
+
+
+
+
+
+
+
+   
